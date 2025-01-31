@@ -1,7 +1,8 @@
 #include <stdio.h>
-main()
+int main()
 {
     char word;
     scanf("%c",&word);
-    printf("%c",word);
+    printf("%c\n",word);
+    return 0;
 }
