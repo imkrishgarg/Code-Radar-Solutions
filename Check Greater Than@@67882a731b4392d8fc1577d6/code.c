@@ -8,9 +8,9 @@ int main()
     {
         printf("True");
     }
-    else
+    else if(num1<num2)
     {
         printf("False");
     }
-    return 0;
+   return 0;
 }
