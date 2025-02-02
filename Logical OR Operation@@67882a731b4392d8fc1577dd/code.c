@@ -8,7 +8,7 @@ int main()
     {
         printf("True");
     }
-    eles
+    else
     {
         printf("False");
     }
