@@ -8,7 +8,7 @@ int main()
     {
         printf("True");
     }
-    else if(num1<num2)
+    else 
     {
         printf("False");
     }
