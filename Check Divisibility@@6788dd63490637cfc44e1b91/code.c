@@ -3,7 +3,7 @@ int main()
 {
     int num;
     scanf("%d",&num);
-    if(num%7==0 and num%11==0)
+    if(num%7==0 && num%11==0)
     {
         printf("Divisible");
     }
@@ -11,5 +11,5 @@ int main()
     {
         printf("Not Divisible");
     }
-    
+    return 0;
 }
