@@ -3,23 +3,23 @@ int main()
 {
     char grade;
     scanf("%c",&ch);
-    if(ch=='A')
+    if(grade=='A')
     {
         printf("Excellent");
     }
-    else if(ch=='B')
+    else if(grade=='B')
     {
         printf("Good");
     }
-    else if (ch=='C')
+    else if (grade=='C')
     {
         printf("Average");
     }
-    else if (ch=='D')
+    else if (grade=='D')
     {
         printf("Below Average");
     }
-    else if (ch=='E')
+    else if (grade=='E')
     {
         printf("Fail");
     }
