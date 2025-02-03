@@ -9,7 +9,7 @@ int main()
     }
     else if(ch=='G')
     {
-        printf("G0");
+        printf("Go");
     }
     else if(ch=='Y')
     {
