@@ -26,5 +26,8 @@ int num()
     {
         printf("%d",div);
     }
+    else{
+        printf("error");
+    }
     return 0;
 }
