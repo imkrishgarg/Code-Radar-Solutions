@@ -8,6 +8,10 @@ int main()
     {
         printf("True");
     }
+    else if(num1<=0 && num2>=0)
+    {
+        printf("True");
+    }
    
     else
     {
