@@ -20,7 +20,7 @@ int num()
     }
     else if(opt=='*')
     {
-        printf("%d",multi)
+        printf("%d",multi);
     }
     else if(opt=='/')
     {
