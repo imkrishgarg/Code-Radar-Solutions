@@ -13,11 +13,11 @@ int main()
     }
     else if(num==3)
     {
-        printf("wednesday");
+        printf("Wednesday");
     }
     else if(num==4)
     {
-        printf("thursday");
+        printf("Thursday");
     }
     else if(num==5)
     {
@@ -29,6 +29,6 @@ int main()
     }
     else if(num==7)
     {
-        printf("sunday");
+        printf("Sunday");
     }
 }
