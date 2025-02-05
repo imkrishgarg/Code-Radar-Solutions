@@ -11,7 +11,7 @@ int main()
     scanf("%d",&k);
     for(i=k;i>=0;i--)
     {
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
 
 }
