@@ -12,7 +12,7 @@ int main()
     if(k>1 && k<n)
     {
         printf("%d\n",arr[k]);
-        for(i=1;i<k0;i++)
+        for(i=1;i<k;i++)
     {
         printf("%d\n",arr[i]);
     }
