@@ -12,9 +12,13 @@ int main()
     if(k>1 && k<n)
     {
         printf("%d\n",arr[(n+1)-k]);
-        for(i=1;i<n-k;i++)
+        for(i=(n+1)-k;i<n;i++)
     {
         printf("%d\n",arr[i]);
+    }
+    for(i=1;i<(n+1)-k;i++)
+    {
+        printf("%d",a[i]);
     }
     }
     return 0;
