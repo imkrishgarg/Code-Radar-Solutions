@@ -7,13 +7,13 @@ void prime_check()
     {
         if(num%i==0)
         {
-            printf("0");
-            break;
+            printf("0\n");
+           
         }
     }
     if(i==num)
     {
-        printf("1");
+        printf("1\n");
     }
     
 }
