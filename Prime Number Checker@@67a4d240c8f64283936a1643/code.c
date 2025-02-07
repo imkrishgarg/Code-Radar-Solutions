@@ -3,8 +3,7 @@ int num;
 scanf("%d",&num);
 void prime_check()
 {
-    int i;
-    scanf("%d",&num);
+    int i; 
     for(i=2;i<num;i++)
     {
         if(num%i==0)
