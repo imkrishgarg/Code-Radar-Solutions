@@ -1,7 +1,9 @@
 #include <stdio.h>
-void prime_check()
+int num;
+scanf("%d",&num);
+void prime_check(num)
 {
-    int i,num;
+    int i;
     scanf("%d",&num);
     for(i=2;i<num;i++)
     {
