@@ -18,7 +18,7 @@ int main()
     }
     for(i=1;i<(n+1)-k;i++)
     {
-        printf("%d",a[i]);
+        printf("%d",arr[i]);
     }
     }
     return 0;
