@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    if(k>=1 && k<n)
+    if(k>=0 && k<n)
     {
        
         for(i=(n+1)-k;i<=n;i++)
