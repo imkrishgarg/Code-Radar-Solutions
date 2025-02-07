@@ -11,7 +11,7 @@ int main()
     scanf("%d",&k);
     if(k>1 && k<n)
     {
-        printf("%d\n",arr[n-k]);
+        printf("%d\n",arr[(n+1)-k]);
         for(i=1;i<n-k;i++)
     {
         printf("%d\n",arr[i]);
