@@ -1,7 +1,7 @@
 #include <stdio.h>
 int num;
 scanf("%d",&num);
-void prime_check(num)
+void prime_check()
 {
     int i;
     scanf("%d",&num);
