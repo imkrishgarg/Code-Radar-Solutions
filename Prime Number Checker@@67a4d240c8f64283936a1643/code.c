@@ -18,4 +18,8 @@ void prime_check()
     }
     
 }
-prime_check();
+int main()
+{
+    prime_check();
+
+}
