@@ -6,12 +6,11 @@ int main()
     scanf("%d ",&num2);
     scanf("%d ",&num3);
     if(num1>num2)
-    else if (num1>3)
+    else if (num1>3 && num1>3)
     {
         printf("%d",num1);
     }
-    //else (num1>3))
-    else if(num2>num1 && num2>num3)
+        else if(num2>num1 && num2>num3)
     {
         printf("%d",num2);
     }
