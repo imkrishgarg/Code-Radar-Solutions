@@ -1,20 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int num1,num2,num3;
-    scanf("%d ",&num1);
-    scanf("%d ",&num2);
-    scanf("%d ",&num3);
-    if(num1>num2 && num1>3)
-    else if (num1>3)    {
-        printf("%d",num1);
-    }
-        else if(num2>num1 && num2>num3)
+    int a,b,c;
+    scanf("%d %d %d",a,b,c);
+    if(a>b && a>c)
     {
-        printf("%d",num2);
+        printf("%d",a);
+    }
+    else if(b>c && b>a)
+    {
+        printf("%d",b);
     }
     else{
-        printf("%d",num3);
+        printf("%d",c);
     }
     return 0;
 }
