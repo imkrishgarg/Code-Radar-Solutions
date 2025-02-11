@@ -1,29 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int n,k,i;
+    int n,k;
     scanf("%d",&n);
     int arr[n];
     for(i=1;i<=n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",arr[n]);
     }
     scanf("%d",&k);
-    if(k>=0 && k<n)
-    {
-       
-        for(i=(n+1)-k;i<=n;i++)
+    for(i=n-k;i<=n;i++)
     {
         printf("%d\n",arr[i]);
     }
-    for(i=1;i<(n+1)-k;i++)
+    for(i=1;i<n-k;i++)
     {
         printf("%d\n",arr[i]);
-    }
     }
     return 0;
-
-    
-    
-
 }
