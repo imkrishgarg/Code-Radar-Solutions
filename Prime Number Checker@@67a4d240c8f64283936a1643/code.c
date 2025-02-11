@@ -4,8 +4,7 @@ int main()
     int num;
     scanf("%d",&num);
 
-}
-void prime_check()
+void prime_check(num)
 {
     int i; 
     for(i=2;i<num;i++)
@@ -23,9 +22,8 @@ void prime_check()
     }
     
 }
-int main()
-{
+
     prime_check();
     return 0;
-
 }
+
