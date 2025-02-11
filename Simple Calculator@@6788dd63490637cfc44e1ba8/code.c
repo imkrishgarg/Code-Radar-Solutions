@@ -1,34 +1,30 @@
 #include <stdio.h>
 int main()
 {
-    int num1,num2,sum,product,diff,div;
+    int num1,num2;
     char opt;
     scanf("%d",&num1);
     scanf("%d",&num2);
     scanf(" %c",&opt);
-    sum=num1+num2;
-    product=num1*num2;
-    diff=num1-num2;
-    div=num1/num2;
     if(num2==0 && opt=='/')
     {
         printf("error");
     }
     else if(opt=='+')
     {
-        printf("%d",sum);
+        printf("%d",num1+num2);
     }
     else if(opt=='-')
     {
-        printf("%d",diff);
+        printf("%d",num1-num2);
     }
     else if(opt=='*')
     {
-        printf("%d",product);
+        printf("%d",num1*num2);
     }
     else if(opt=='/')
     {
-        printf("%d",div);
+        printf("%d",num1/num2);
     }
     else{
         printf("error");
