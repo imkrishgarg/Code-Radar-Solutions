@@ -3,13 +3,13 @@ int num()
 {
     int num1,num2,sum,product,diff,multi;
     char opt;
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+    scanf("%c",&opt);
     sum=num1+num2;
     product=num1*num2;
     diff=num1-num2;
     div=num1/num2;
-    scanf("%d",&num1);
-    scanf("%d",&num2);
-    scanf("%c",&opt);
     if(opt=="+")
     {
         printf("%d",sum);
