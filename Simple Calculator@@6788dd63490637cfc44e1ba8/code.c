@@ -10,19 +10,19 @@ int main()
     product=num1*num2;
     diff=num1-num2;
     div=num1/num2;
-    if(opt=="+")
+    if(opt=='+')
     {
         printf("%d",sum);
     }
-    else if(opt=="-")
+    else if(opt=='-')
     {
         printf("%d",diff);
     }
-    else if(opt=="*")
+    else if(opt=='*')
     {
         printf("%d",multi);
     }
-    else if(opt=="/")
+    else if(opt=='/')
     {
         printf("%d",div);
     }
