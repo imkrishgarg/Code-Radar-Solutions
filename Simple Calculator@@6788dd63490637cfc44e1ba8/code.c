@@ -1,5 +1,5 @@
 #include <stdio.h>
-int num()
+int main()
 {
     int num1,num2,sum,product,diff,multi;
     char opt;
