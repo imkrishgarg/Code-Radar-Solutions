@@ -1,9 +1,10 @@
 #include <stdio.h>
-
+int main()
+{
     int num;
     scanf("%d",&num);
 
-
+}
 void prime_check()
 {
     int i; 
@@ -12,6 +13,7 @@ void prime_check()
         if(num%i==0)
         {
             printf("0\n");
+            break;
            
         }
     }
