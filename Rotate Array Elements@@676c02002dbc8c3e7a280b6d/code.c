@@ -11,11 +11,11 @@ int main()
     scanf("%d",&k);
     if(k<=n && k>=0)
     {
-            for(i=n-k;i<=n;i++)
+            for(i=(n+1)-k;i<=n;i++)
     {
         printf("%d\n",arr[i]);
     }
-    for(i=1;i<n-k;i++)
+    for(i=1;i<(n+1)-k;i++)
     {
         printf("%d\n",arr[i]);
     }
