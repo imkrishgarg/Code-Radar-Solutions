@@ -10,7 +10,7 @@ int main()
     product=num1*num2;
     diff=num1-num2;
     div=num1/num2;
-    if(num2==0 && opt='/')
+    if(num2==0 && opt=='/')
     {
         printf("error");
     }
