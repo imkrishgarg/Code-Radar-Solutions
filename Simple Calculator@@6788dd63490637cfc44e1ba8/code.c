@@ -10,7 +10,11 @@ int main()
     product=num1*num2;
     diff=num1-num2;
     div=num1/num2;
-    if(opt=='+')
+    if(num2==0 && opt='/')
+    {
+        printf("error");
+    }
+    else if(opt=='+')
     {
         printf("%d",sum);
     }
