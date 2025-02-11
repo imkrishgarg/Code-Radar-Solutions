@@ -9,7 +9,9 @@ int main()
         scanf("%d",&arr[n]);
     }
     scanf("%d",&k);
-    for(i=n-k;i<=n;i++)
+    if(k<=n && k>=0)
+    {
+            for(i=n-k;i<=n;i++)
     {
         printf("%d\n",arr[i]);
     }
@@ -17,5 +19,7 @@ int main()
     {
         printf("%d\n",arr[i]);
     }
+    }
+
     return 0;
 }
