@@ -10,19 +10,19 @@ int num()
     scanf("%d",&num1);
     scanf("%d",&num2);
     scanf("%c",&opt);
-    if(opt=='+')
+    if(opt=="+")
     {
         printf("%d",sum);
     }
-    else if(opt=='-')
+    else if(opt=="-")
     {
         printf("%d",diff);
     }
-    else if(opt=='*')
+    else if(opt=="*")
     {
         printf("%d",multi);
     }
-    else if(opt=='/')
+    else if(opt=="/")
     {
         printf("%d",div);
     }
