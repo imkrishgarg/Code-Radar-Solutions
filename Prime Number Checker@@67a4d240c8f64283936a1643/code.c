@@ -20,5 +20,6 @@ void prime_check()
 int main()
 {
     prime_check();
+    return 0;
 
 }
