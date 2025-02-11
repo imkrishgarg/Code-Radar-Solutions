@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int num1,num2,sum,product,diff,multi;
+    int num1,num2,sum,product,diff,div;
     char opt;
     scanf("%d",&num1);
     scanf("%d",&num2);
@@ -20,7 +20,7 @@ int main()
     }
     else if(opt=='*')
     {
-        printf("%d",multi);
+        printf("%d",product);
     }
     else if(opt=='/')
     {
