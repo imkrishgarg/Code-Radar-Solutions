@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h> 
+ 
 int main()
 {
     char alphabet;
@@ -14,7 +14,7 @@ int main()
     }
     else
     {
-        printf("Not an Alphabet");
+        printf("Not an alphabet");
     }
     return 0;
 }
