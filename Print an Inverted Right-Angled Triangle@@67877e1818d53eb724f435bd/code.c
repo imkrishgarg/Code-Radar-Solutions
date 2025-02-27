@@ -2,8 +2,6 @@
 int main()
 {
     int num,i,j;
-    char ch;
-    ch="*";
     scanf("%d",&num);
     for(i=num;i>0;i--)
     {
