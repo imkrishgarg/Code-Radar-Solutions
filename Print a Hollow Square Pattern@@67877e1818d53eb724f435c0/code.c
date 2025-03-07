@@ -17,17 +17,12 @@ int main()
             {
                 printf(" ");
             }
-            
-            
             }
-
             else{
                 printf("*");
             }
         }
         printf("\n");
-        
-    
     }
     return 0;
 }
