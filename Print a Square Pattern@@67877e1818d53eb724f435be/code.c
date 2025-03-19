@@ -9,7 +9,7 @@ int main()
         {
             printf("*");
         }
-        primtf("\n");
+        printf("\n");
     }
     return 0;
 }
