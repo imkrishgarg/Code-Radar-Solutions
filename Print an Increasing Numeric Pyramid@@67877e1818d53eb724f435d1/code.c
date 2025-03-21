@@ -1,5 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    printf("d");
+    int num,i,j;
+    scanf("%d",num);
+    for(i=1;i<=num;i++)
+    {
+        for(j=1;j<=num-i;j++)
+        {
+            printf(" ");
+        }
+        for(j=1;=i;j++)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
 }
