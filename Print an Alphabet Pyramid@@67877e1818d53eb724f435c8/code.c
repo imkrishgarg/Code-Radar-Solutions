@@ -5,11 +5,7 @@ int main()
     scanf("%d",&num);
     for(i=1;i<=num;i++)
     { int a=1;
-        for(j=1;j<=num-i;j++)
-        {
-            printf(" ");
-
-        }
+        
         for(j=1;j<=i;j++)
         {
             int d=64;
