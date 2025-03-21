@@ -15,7 +15,7 @@ int main()
             int d=64;
             char ch=(char)d+a;
             printf("%c ",ch);
-            a++
+            a++;
         }
         printf("\n");
     }
