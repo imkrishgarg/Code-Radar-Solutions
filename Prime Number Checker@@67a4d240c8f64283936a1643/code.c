@@ -20,8 +20,8 @@ void prime_checker( int n)
 }
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    prime_checker(a);
+    int n;
+    scanf("%d",&n);
+    prime_checker(n);
     return 0;
 }
