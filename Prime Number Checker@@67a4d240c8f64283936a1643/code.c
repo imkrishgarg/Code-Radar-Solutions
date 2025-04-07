@@ -22,6 +22,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    prime_checker(n);
+    int answer =prime_checker(n);
+    printf("%c",answer);
     return 0;
 }
