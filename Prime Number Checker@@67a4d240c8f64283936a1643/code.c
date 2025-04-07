@@ -1,5 +1,5 @@
 #include<stdio.h>
-int prime_checker( int n)
+void prime_checker( int n)
 {
     int i;
     for(i=2;i<n;i++)
@@ -22,7 +22,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int answer =prime_checker(n);
-    printf("%c",answer);
+    prime_checker(n);
+    
     return 0;
 }
