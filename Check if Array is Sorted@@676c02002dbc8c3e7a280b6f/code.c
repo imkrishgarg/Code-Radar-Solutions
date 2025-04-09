@@ -14,7 +14,7 @@ int main()
     {
          if(n=1)
     {
-        printf("sortef")
+        printf("Sortef");
     }
         else if(fir_ele>arr[i+1] )
         {
