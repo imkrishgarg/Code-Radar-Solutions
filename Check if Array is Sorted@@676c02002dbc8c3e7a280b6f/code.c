@@ -11,7 +11,7 @@ int main()
     fir_ele=arr[0];
     for(i=0;i<n;i++)
     {
-        if(fir_ele>=arr[i])
+        if(fir_ele>arr[i])
         {
             printf("Not Sorted");
             break;
