@@ -14,10 +14,12 @@ int main()
         if(fir_ele>arr[0])
         {
             printf("Not Sorted");
+            return ;
         }
         else
         {
             printf("Sorted");
+            return ;
         }
 
     }
