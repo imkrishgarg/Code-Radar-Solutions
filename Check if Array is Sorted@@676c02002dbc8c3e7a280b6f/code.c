@@ -9,31 +9,22 @@ int main()
         scanf("%d",&arr[i]);
     }
     fir_ele=arr[0];
-    if(n=1)
+    for(i=0;i<n-1;i++)
     {
-        printf("Sorted");
-    }
-    else{
-
-        for(i=0;i<n-1;i++)
-    {
-        
-    else if(fir_ele>arr[i+1] )
-        {
-            printf("Not Sorted");
-            break;
-            
-        }
-        else
+        if(n=1)
         {
             printf("Sorted");
-            break;
-            
         }
-
+        else if(fir_ele>a(i+1))
+        {
+            printf("Not Sorted");
+        }
+        else{
+            printf("Sorted");
+        }
     }
-
-    }
+   
+    
    
     
     return 0;
