@@ -6,7 +6,7 @@ int main()
     int arr[n],i;
     for(i=0;i<n;i++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     fir_ele=arr[0];
     for(i=0;i<n;i++)
