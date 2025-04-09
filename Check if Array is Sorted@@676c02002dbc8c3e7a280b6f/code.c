@@ -6,12 +6,12 @@ int main()
     int arr[n],i;
     for(i=0;i<n;i++)
     {
-        scanf("%d",a[i]);
+        scanf("%d",arr[i]);
     }
-    fir_ele=a[0];
+    fir_ele=arr[0];
     for(i=0;i<n;i++)
     {
-        if(fir_elemt>a[0])
+        if(fir_elemt>arr[0])
         {
             printf("Not Sorted");
         }
