@@ -11,7 +11,7 @@ int main()
     fir_ele=arr[0];
     for(i=0;i<n-1;i++)
     {
-        if(n=1)
+        if(n==1)
         {
             printf("Sorted");
         }
