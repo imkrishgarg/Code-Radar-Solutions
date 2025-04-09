@@ -6,7 +6,7 @@ int main()
     if(n==1)
         {
             printf("Sorted");
-            break;
+            
         }
     int arr[n],i;
     for(i=0;i<n;i++)
