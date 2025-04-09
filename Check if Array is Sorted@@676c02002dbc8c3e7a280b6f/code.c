@@ -14,13 +14,16 @@ int main()
         if(n==1)
         {
             printf("Sorted");
+            break;
         }
         else if(fir_ele>arr[i+1])
         {
             printf("Not Sorted");
+            break;
         }
         else{
             printf("Sorted");
+            break;
         }
     }
    
