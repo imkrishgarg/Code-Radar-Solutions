@@ -1,4 +1,12 @@
 #include<stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    prime(n);
+
+}
 void prime(int n)
 {
     int i;
@@ -16,14 +24,8 @@ void prime(int n)
     }
 
 }
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    prime(n);
+return 0;
 
-    return 0;
-}
 
 
 
