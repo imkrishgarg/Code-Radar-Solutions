@@ -5,6 +5,7 @@ int main()
     int n;
     scanf("%d",&n);
     prime(n);
+    return 0;
 
 }
 void prime(int n)
@@ -24,7 +25,7 @@ void prime(int n)
     }
 
 }
-return 0;
+
 
 
 
