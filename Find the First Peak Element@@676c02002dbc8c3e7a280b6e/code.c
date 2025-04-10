@@ -10,7 +10,7 @@ int main()
     }
     if(arr[0]>arr[1])
     {
-        printf("%d",arr[i])
+        printf("%d",arr[i]);
     }
     else if(arr[n-2]<arr[n-1])
     {
@@ -19,7 +19,7 @@ int main()
     else{
         if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
-            print("%d",arr[i]);
+            printf("%d",arr[i]);
         }
 
     }
