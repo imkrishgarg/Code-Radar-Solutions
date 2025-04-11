@@ -1,4 +1,4 @@
-void isPrime(int n)
+int isPrime(int n)
 {
     int i;
     for(i=2;i<n;i++)
@@ -13,6 +13,7 @@ void isPrime(int n)
     {
         printf("1");
     }
+    return 0;
 
 }
 
