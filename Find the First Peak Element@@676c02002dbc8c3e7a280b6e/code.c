@@ -20,7 +20,7 @@ int main()
         }
 
     }
-     else (arr[n-2]<arr[n-1])
+     else 
     {
         printf("%d",arr[n-1]);
     }
