@@ -12,7 +12,7 @@ int isPrime(int n)
     if(i==n)
     {
         printf("1");
-        break;
+       
     }
     return 0;
 
