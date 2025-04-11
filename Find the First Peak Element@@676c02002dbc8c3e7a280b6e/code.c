@@ -6,7 +6,7 @@ int main()
    int arr[n];
    for(i=0;i<n;i++)
    {
-    printf("%d",&arr[n]);
+    printf("%d",arr[n]);
    }
    for(i=0;i<n;i++)
    {
