@@ -1,19 +1,10 @@
 #include<stdio.h>
-
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    prime(n);
-    return 0;
-
-}
 void prime(int n)
 {
     int i;
-    for(i=1;i<n;i++)
+    for(i=2;i<n;i++)
     {
-        if(n%1==0)
+        if(n%i==0)
         {
             printf("0");
             break;
@@ -25,6 +16,17 @@ void prime(int n)
     }
 
 }
+
+int main()
+{
+    int n;
+    printf("enter the number:");
+    scanf("%d",&n);
+    prime(n);
+    return 0;
+
+}
+
 
 
 
