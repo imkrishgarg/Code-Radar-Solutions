@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 void prime(int n)
 {
     int i;
@@ -17,15 +17,7 @@ void prime(int n)
 
 }
 
-int main()
-{
-    int n;
-    printf("enter the number:");
-    scanf("%d",&n);
-    prime(n);
-    return 0;
 
-}
 
 
 
