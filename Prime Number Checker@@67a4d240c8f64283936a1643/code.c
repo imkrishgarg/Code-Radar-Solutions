@@ -1,4 +1,4 @@
-int isPrime(int n)
+void isprime(int n)
 {
     int i;
     for(i=2;i<n;i++)
@@ -15,8 +15,6 @@ int isPrime(int n)
     }
 
 }
-
-
 
 
 
